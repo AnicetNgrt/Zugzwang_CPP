@@ -1,5 +1,5 @@
-#if !defined(ZUGZWANG_INTERFACES_MOVE)
-#define ZUGZWANG_INTERFACES_MOVE
+#pragma once
+
 #include "Command.hpp"
 
 class Player;
@@ -13,5 +13,3 @@ namespace Zugzwang
         virtual bool canExecute();
     };
 } // namespace Zugzwang
-
-#endif // ZUGZWANG_INTERFACES_MOVE

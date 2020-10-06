@@ -1,5 +1,4 @@
-#if !defined(ZUGZWANG_INTERFACES_TURNTREE)
-#define ZUGZWANG_INTERFACES_TURNTREE
+#pragma once
 
 class Turn;
 
@@ -11,6 +10,3 @@ namespace Zugzwang
         virtual Turn* getTurn() = 0;
     };
 } // namespace Zugzwang
-
-
-#endif // ZUGZWANG_INTERFACES_TURNTREE

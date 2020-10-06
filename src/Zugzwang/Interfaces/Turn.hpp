@@ -1,5 +1,5 @@
-#if !defined(ZUGZWANG_INTERFACES_TURN)
-#define ZUGZWANG_INTERFACES_TURN
+#pragma once
+
 #include <vector>
 
 class Command;
@@ -14,5 +14,3 @@ namespace Zugzwang
         void undoAll();
     };
 } // namespace Zugzwang
-
-#endif // ZUGZWANG_INTERFACES_TURN

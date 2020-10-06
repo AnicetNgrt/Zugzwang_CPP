@@ -1,5 +1,4 @@
-#if !defined(ZUGZWANG_INTERFACES_COMMAND)
-#define ZUGZWANG_INTERFACES_COMMAND
+#pragma once
 
 class Game;
 
@@ -14,5 +13,3 @@ namespace Zugzwang
         virtual void undo();
     };
 } // namespace Zugzwang
-
-#endif // ZUGZWANG_INTERFACES_COMMAND

@@ -1,5 +1,5 @@
-#if !defined(ZUGZWANG_INTERFACES_PLAYER)
-#define ZUGZWANG_INTERFACES_PLAYER
+#pragma once
+
 #include "Move.hpp"
 
 class Command;
@@ -13,6 +13,3 @@ namespace Zugzwang
         virtual void giveCommand(Command* command) = 0;
     };
 } // namespace Zugzwang
-
-
-#endif // ZUGZWANG_INTERFACES_PLAYER

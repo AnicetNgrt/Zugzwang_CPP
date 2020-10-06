@@ -1,5 +1,4 @@
-#if !defined(ZUGZWANG_INTERFACES_GAME)
-#define ZUGZWANG_INTERFACES_GAME
+#pragma once
 
 class Ruleset;
 
@@ -13,6 +12,3 @@ namespace Zugzwang
         virtual bool isFinished() = 0;
     };
 } // namespace Zugzwang
-
-
-#endif // ZUGZWANG_INTERFACES_GAME

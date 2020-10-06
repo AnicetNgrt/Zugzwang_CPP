@@ -1,5 +1,5 @@
-#if !defined(ZUGZWANG_INTERFACES_TREE)
-#define ZUGZWANG_INTERFACES_TREE
+#pragma once
+
 #include <vector>
 
 namespace Zugzwang
@@ -15,6 +15,3 @@ namespace Zugzwang
         virtual int childCount() = 0;
     };
 } // namespace Zugzwang
-
-
-#endif // ZUGZWANG_INTERFACES_TREE
